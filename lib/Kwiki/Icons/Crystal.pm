@@ -1,0 +1,319 @@
+package Kwiki::Icons::Crystal;
+use strict;
+use warnings;
+use Kwiki::Icons '-Base';
+our $VERSION = '0.10';
+
+const class_title => 'Crystal SVG-based Icons';
+const icons_path => 'icons/crystal/template';
+
+1;
+
+__DATA__
+
+=head1 NAME
+
+Kwiki::Icons::Crystal - Kwiki Crystal Icons plugin
+  
+=head1 SYNOPSIS
+
+ $ cpan Kwiki::Icons::Crystal
+   $ cd /path/to/kwiki
+   $ vim plugins
+   $ kwiki -update
+  
+=head1 DESCRIPTION
+
+This is a Kwiki icons package that includes icons from the Crystal SVG KDE icon theme.  
+  
+=head2 Icons
+
+The following icons are provided:
+  
+=over 4
+
+=item * edit
+
+=item * favorites
+
+=item * guest_book
+
+=item * home
+
+=item * new_page
+
+=item * plugin_index
+
+=item * recent_changes
+
+=item * revisions (now the same as revisions_previous)
+
+=item * revisions_current
+
+=item * revisions_next
+
+=item * revisions_previous
+
+=item * user_preferences
+
+=item * weather
+
+=back
+
+=head1 AUTHOR
+
+The icons have been packaged by Matt Howard after borrowing work by 
+Ian Langworth <langworth.com>.
+  
+Credits to Brian Ingerson and Jooon for further tweaks.
+  
+=head1 SEE ALSO
+
+L<Kwiki>, L<Kwiki::Icons>, L<http://www.everaldo.com/>
+  
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (c) 2004. Ian Langworth. All rights reserved.
+  
+The Crystal SVG icon set is from the KDE packages.  They are licensed
+under the LGPL with an additional section that defines "source code" in
+the context of graphics.  For more information, see 
+L<http://artist.kde.org/new/license.html>
+
+The code borrowed from Ian's work falls under the General Public License.
+
+See L<http://www.gnu.org/copyleft/gpl.html>
+  
+=cut
+
+__icons/crystal/template/recent_changes_button_icon.html__
+<!-- BEGIN recent_changes_button_icon.html -->
+<img src="icons/crystal/image/recent_changes.png" alt="Changes" />
+<!-- END recent_changes_button_icon.html -->
+__icons/crystal/template/edit_button_icon.html__
+<!-- BEGIN edit_button_icon.html -->
+<img src="icons/crystal/image/edit.png" alt="Edit" />
+<!-- END edit_button_icon.html -->
+__icons/crystal/template/favorites_button_icon.html__
+<!-- BEGIN favorites_button_icon.html -->
+<img src="icons/crystal/image/favorites.png" alt="Favorites" />
+<!-- END favorites_button_icon.html -->
+__icons/crystal/template/guest_book_button_icon.html__
+<!-- BEGIN guest_book_button_icon.html -->
+<img src="icons/crystal/image/guest_book.png" alt="Guests" />
+<!-- END guest_book_button_icon.html -->
+__icons/crystal/template/home_button_icon.html__
+<!-- BEGIN home_button_icon.html -->
+<img src="icons/crystal/image/home.png" alt="Home" />
+<!-- END home_button_icon.html -->
+__icons/crystal/template/new_page_button_icon.html__
+<!-- BEGIN new_page_button_icon.html -->
+<img src="icons/crystal/image/new_page.png" alt="New" />
+<!-- END new_page_button_icon.html -->
+__icons/crystal/template/revisions_button_icon.html__
+<!-- BEGIN revisions_button_icon.html -->
+<img src="icons/crystal/image/revisions_previous.png" alt="[% hub.pages.current.revision_number %]&nbsp;Revisions" />
+<!-- END revisions_button_icon.html -->
+__icons/crystal/template/revisions_controls_current_icon.html__
+<!-- BEGIN revisions_controls_current_icon.html -->
+<img src="icons/crystal/image/revisions_current.png" alt="Current" />
+<!-- END revisions_controls_current_icon.html -->
+__icons/crystal/template/revisions_controls_next_icon.html__
+<!-- BEGIN revisions_controls_next_icon.html -->
+<img src="icons/crystal/image/revisions_next.png" alt="Next" />
+<!-- END revisions_controls_next_icon.html -->
+__icons/crystal/template/revisions_controls_previous_icon.html__
+<!-- BEGIN revisions_controls_previous_icon.html -->
+<img src="icons/crystal/image/revisions_previous.png" alt="Previous" />
+<!-- END revisions_controls_previous_icon.html -->
+__icons/crystal/template/user_preferences_button_icon.html__
+<!-- BEGIN user_preferences_button_icon.html -->
+<img src="icons/crystal/image/user_preferences.png" alt="Preferences" />
+<!-- END user_preferences_button_icon.html -->
+__icons/crystal/template/weather_button_icon.html__
+<!-- BEGIN weather_button_icon.html -->
+<img src="icons/crystal/image/weather.png" alt="Weather" />
+<!-- END weather_button_icon.html -->
+__icons/crystal/image/.htaccess__
+Allow from all
+__icons/crystal/image/recent_changes.png__
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
+WXMAAG6zAABuswEgE1uWAAAAB3RJTUUH0woIEDYL1ZIf4gAAAs9JREFUeNq1kltIFHEUxr/5/3dn
+NtcxW11rsyVTM7tbERFFPUhFSQ8V1GMFRflSVIRBvXWBghAM6UZQ0t3CYiHLbmRpaYIu6batWrvp
+muPYZrvOOLrunh66Q1E99IPzdM73HfjO4fgLPno8pjXawLJ1mdxxo7O7Y3CIvvXY70RnLj13HDx6
+TY4ND0Mtv37WKVpuZQ8b1Rf3TF7945zpV+Ky8oacabljH45akCU3nr9RnQlWQPcfQdw7HoOldTk/
+GZScqbGKojlv4gT77FRbwgzRzOaKZp7LmCBpzc1I7moriFW4YFqWDHeDYijxOVeBqu8Oj+tel2v6
+EEUiBoVCGqlqhBQlTO+CH8hXXELPsnKpPt1BvrKl1Oq6S9623nBFZcvJ9VsP2wCAeV6+OWQYUYrH
+CYIggLHPNVT7CPaOTth1A7oew6urVugZU+GwW+WuYGDiuRNFIgCwLRvyG7uU0E2TiYFzAZwzULgP
+YkszqLIKiYxjRO4UTC8uQZpdRmugj5Se3rrCXcd1AOBNbk/6yCR5tySZUzjjAADtaQ3E6xWIB7ug
+mDnEY6cA2QaKx5FkFYX8xXkLrXLqZp/PX25S1R4HEb0jQvaYNJsgCIDe3g7jpRe9SYnQi/ZAVfxo
+ffoEybIVeXmzkJWTQxculB2rr3WpwpcspXsPao/Mnzd7G2MM3Z4ruH36CbSMbEhWK5xOJ8amOxGN
+JWDypHEoLr1yfv++jTsA9AIAGptaVoQj/bGPYY2i0Rj19w9QZ7CH/G8VehNQyevrphctQXof0ujk
+2TvVADK+XpEDgNvd9NZiSfLHiY0ZjiNdksyCxTICklmEiXOYTRypKYmoqfe179y+flN/5IP3dx9s
+2VV0YJGrsuby64A6YBhR6uvTKRTSqMEdCM2ck7/i69I/wZcsX5tZetp16HmjP+ht6xlcuaawEICE
+f0QYZRudXLCqcAkAGf+DTyjlQqVlAeopAAAAAElFTkSuQmCC
+__icons/crystal/image/edit.png__
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
+WXMAAAsSAAALEgHS3X78AAAAB3RJTUUH0woZCx8pvGK9hgAAAkBJREFUeNqFk81PU0EUxX/zPvro
+6wNsSRGDRiJiYqNujMQETVyRqHHhlpWJOxf+F7hy419AjBvdG10QNNE9BtQYgwoqgVCglLbvvb6P
+mXFBS1pr5CR3Mpnce+6Zc2fE8uc17boOnYjihDhKqZV/c279AWF8ub71tfp0df71o5nlZLMz13Jd
+h/GxkcMDrTXNOCWJFfXdFwxfWkVUR/uLTuH+1jtjEZjrIuAvCCGwTAMVrHPMfYkoB/DtDcGXwSQa
+Lv2AD135Bv+AQCOq8ziZj7Btoio2K33XBsKZ2dnHT56dOZKAZgXDf4XRiEA67Ox4BKVbaJVO7Vd3
+p44maCxhJe8RzRxpfYD90WnypUn6+13C0P//FTSg1ucwXQ8SDz8YIRy7Qa5QxLbtnl49JqrtT5i5
+Vah70LSpZc7ilq5jOhksy2xl5UWrNrU6O+skRFWeY9lZiExi32D/xE0KQ8eRUoLW1Gq1LFBsqfct
+AKkUUml09TtmpgKBBwjKFcHQ3dukMiUIQoIgoFFvOEBbimsBaAVKarSUmLIIRDT26tSLV7GihDgJ
+SJMUJeWB1A67ujyQqYmQV0j1BD83FlEXJiFN0UojhEAIgWEYCmi2o4tgdy9kbWmFglDo83ewiyfR
+rY6GYeD0OQzmB32gCnv6cIxtVUmsqP4qY1+cxj01gWGY2LaN5+UoFPK4rks2m5Xt4sMxCnEQw6fH
+yd97iHA9tIJUKizLQimNUgohRO872NjcYmHhbddv1C1Z+mBBt/aNht9D8AdqVATttvEy+QAAAABJ
+RU5ErkJggg==
+__icons/crystal/image/favorites.png__
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAABzUlE
+QVR42q3Tz0sUYRzH8fc+O5ipm1GGWazFFqkHod3Q6McpgthDQthhzkF78NjN/gCDDlJ0C5Lo0KUf
+BBUK0dVAagfX3c0VnRaG3Vx2tsm0VsfZebrMSIslW/SBLw9fHl7P4Xm+D/zHRIEx4AEgvYp65fdT
+wF2g30eKt46qqjp253jbhAi1X5b2OtMvnhavfCglAQojQ0WlK3wo0NQcm3r86MuNbCVlbro3gVsB
+IKqqavLe6ci8u7bSC+AYOgCapjEwNLzVA0jHIf9x9vO4vtr1vFSNBYGHI8c6Fvo69pxxDB33m4VT
+KSFa2ggPnvOUpPZjlZplUls22BfpCfG1MveyXO1TgEtXz54qby5lEaG92PkcrmViWya0tOIYOq5l
+1l2WYywRUkQ30C+AJxmjcADYwn7s1Mw27MdFtgMTAni3mMut1zaqDT+X1XmE2ZWN74AugNfX32jN
+wV27G8LBcIT36Sy382utwDMBLACxw/cnUfZ37oiVoyeYTmVIzFUAYsC88PY0/5Cm3pPFP+F0Oo2q
+lX2sAQR+M43JQiKOvZjZhuMzy3V4p5GWhURcfrrQLY1rF+Xk4MFfR7vhfyHfDp+Xrwb+Htcd8q+4
+4fwEn5PGUNU7vtsAAAAASUVORK5CYII=
+__icons/crystal/image/guest_book.png__
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAACOklE
+QVR42rWTTUhUYRSGn3vveGeytNRMjShEECEjwRaCFAQtpAKFECNc1aIEE1oFBRG1ydqG/eHChSjY
+H7mprBYJIkKYUWJUzETlaOP4M87cO3fufN/X4jqjSFCLOnB273nO956PF/5x+ffXFtwB1J+6cIvZ
+DujaOsDx0iKj793QGWY+P2EhJpiNChaXJQA+A3J8GoahceLCLIDhWwfomxy+Qix4l8iCILooCM8J
+ko7MCnZtz+FjMKWAekDqa4aPHdwXQDizLMQEtqOwHYWbVllBjk9DSng/fwhgBCADMID7A91nSUwP
+Ercklu21EB5A0zV2lvn49DUlLctSj2/WDKwFnGprzidtfye66Ga3O+7qdl2DgF9n8E0FR/eO0dT+
+thkwM0dU81OdLId6+Da9RHTJ8x5LSJT0IFXlJk9HLLTiVrq6ugAOAMM60NTZUUgy8pqkHcdxFU7K
+854ZBkjYiokf1WxO9mUuOgygAWpm7KRylyc1JRyUtJFpi/CcQK5IHVcxPuUw/rOB3t5eAn79UtKR
+V7OA/mslPHgRF7srTGOD33OVSCrSwvPuNzWmVQsNlY9oPDfzAajOvMwHUJiv03okz1Dlt6mrq0Mp
+RSAQAEAIQSgUYnR0lMb2W2gal9WqM4yaqvzcGz3RvP5n8ZId5vNEcarbLN4UIa7XZkHBYBDxpYOH
+rxIALb/LQBHQBtwDXgJhQB2uz00NXC9JRybOu4DaWmBe/JtAla580emybf7uTHj2VG4c4n/UL1lI
+FHEcBEIXAAAAAElFTkSuQmCC
+__icons/crystal/image/home.png__
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAAoBJREFU
+eJyVkk9IVFEUxn/3OW/KZnR4qONoY1rmH8zCtE1h0sbaSWAu2hVRGEa4KCpqEUSrXEQ1CEGgi6JF
+gUEERWQibRK0EqPQCMl0dHwjTc4/5807LXJqkIL6NvfA/b5zzz384C86AZ5Pe7h7GHoA5998f9Rp
+F/WLnRtHzO5amSlTckXnCeD/p3DvJg4tdpaGzJ79Yp4sl4kSJTN+JQMeptzQstavZddDlVzoaHHd
+V4ZRSCQMdgJNg3AKdrpV5bCPJ3VwJLtBzuq5YXobfX6P6lZ6SsOtQzxCZGieRAi8Bmg6GE7lPFak
+Di6EyXsDzwAUwE5of96mHmCtzrQC86F15J66hcMMkgpcwpOvIPfnayJi+0bYZ8GwAjAvNQmRz2DZ
+MBnFLG6lsqcfrbgQgG9jHwiebcObnEK8vz9e8ECUMg8pobYRgNjHFdLNR0hVFRGMRPFvrsZlLxNf
+miW3ppXZ3puUTj0kx/H11w4cmbBpVlFy/iLuxnoedfh5Oq3hrt5HU3kBuRN9bO3yUHftOu9ubydv
++B6FiUGobSTnXEvp5Q+x3dJw445ylngBcBkGPsNJmaFDdJEtew+wvmIXnuKN5DfsIOyrYfTVl2SF
+N+4A2BwIBGStpsdHZfzFY3k90C+fJsYkspyQUCgkc3NzEv6+LIFAQAC/A/i8Fo5kcoWXV4+SnnxL
+HhBsO07zmQDxeBwRIbYwn7HOOLKDtm1jpdNEo3EKnSv4ikDXIeiwicUSJJNJLMsiFotlLTEbRU0D
+K42NRr1/A5t0WEpBwpNH2rIQEXRdR0TSGQizUf4fZQj+OUFXV5cCJNvRXlwm5C8qI61hJsR+PzQY
+j5pBV+Z+NcMPzi8O6MQ0qzUAAAAASUVORK5CYII=
+__icons/crystal/image/new_page.png__
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJnSURBVHjaYjx66tobAT4e9n///zPAwD8g
+88ePnwy/f/1mePPuI9Of3//ef/78xYOZheUKExMTw+1bNxkaqjPAagECiIWdjY1bU02GgwEJ/Aca
+9uPXP4a/fxgY7t5/zMDDzcl198Hz/U+evQxlZ2c/gKwWIICYGLAARkZGBqBFDIxM/xiYmJkYJCRF
+GBysdUXUVeV3srKwhPxDOJYBIIBYsBkAkmcEYjY2Fob7Dx4zvHr5koGLm4Phz++/bJ8+flj979+/
+IqB0P0gtQABhdQHYFUxAVwBNERURYvj1+z/DyxfvGe7cfcLAxsHG8OXLhzaYOoAAwuoCkO1MQG8A
+A49BT1ed4eeP3wzv3n8EBugHBlZWNoZTJ47C1QIEEHYvAAPx799/DH8Y/jJ8+PANaOMPhp8/fzGw
+sbICDWBhYGZmhqsFCCCsBvwBhtLnL78Y/vz5w/Dv739gWLACvQSM3n//GFhZgGxGhFqAAMIw4DfQ
+5u/ffzMAKbBnmJgZGVgYmICa2ICu+gN0ASvUkxAAEEAsMPaP33/BzN9//kJjgAloOwPY5j+M/xgY
+wSYCnc/CAo5mGAAIIBZYNPz58w/uNEagrQx//gMNYoSkCSD+D/Q2MFkwMDPCIhoCAAKI6R9yyIMT
+ESgtoyYzUGJiBHuDEWo7wgUAAYQzHRALAAKICWbC/3+QTARyHZhCSq7/YWn3PySKkb0AEEAsMDke
+blZEbgRicJj9B4UNME0AFf35+5fhHzCgWYAJCTkQAQKI5eOnT1/bOif/YWJigVryD+zf/0An/Qe7
+BpIzwDYDMSMwWr58+vwTZgBAgAEASRjbgDafxqkAAAAASUVORK5CYII=
+__icons/crystal/image/plugin_index.png__
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
+WXMAAAsSAAALEgHS3X78AAAAB3RJTUUH0wkJDi4DsPacRgAAAB10RVh0Q29tbWVudABDcmVhdGVk
+IHdpdGggVGhlIEdJTVDvZCVuAAABeUlEQVR42rWSOy8EURTHf3d2d+4gmyBIEA2VaLxDKZqtFCQU
+So1WfAHtFiofQKWU+BJCgoYVMcQmiCz7sF6zZszdq7CzhPVIcJKbe+4/93/O/zzgH2wI0KX7K+xT
+05e5K10ilLH83c17DACjUoTj85MP2H7yoGI2488Kb7Bke0nit6dRmr0BT7yt00vsvb5ME5VO49s2
+AO72Fhurq9wWi8xnr0kpJQDCb1W4ts3j4SGX8XgZ89EoYRAyDOqLRdrMSOUeNEpzLDo+gdXRQe30
+NDWdnRiWJCwlN5YkZ0awR0ximRwqHOoPeGUFWoh1AJU8gcFBzo6OiAwPI1IpqgoFTnscolE3+JsK
+eKHAcXxVAHab7u+nBmIx/Pw1nuPgtLhk6i7IdnksL2ZJPD1NOr7arNREGixZJbSeSbveUnJ0hIfu
+brYeVsi3QnwhiwqHZrQQa5lHN/fdSOsBnZif08uzTVq8jK7vx4sUZKhubkYi0EDa9Xb+ZRN/HeAZ
+ELmcUtQv1QoAAAAASUVORK5CYII=
+__icons/crystal/image/revisions.png__
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAABdElE
+QVR42o2SMYsaURSFvyxrLWKRXoT8BC39AdttZR/YhYWk9HdsirBpUttHm11BZZhhrKwirAgRRJh9
+MwhiFfW9s83OECHOzoXTvHfu4dxzL8A1oDO4okDJOZfBWqvlcqnxeJyKXBcS2G63GTzP0+FwULfb
+fdfJhzcBdrtd9jgYDPB9nziOWa1WjEajlJvvYDgcCtB0OlW73VbRbOSc02QyEaA/iyQjFs1GzjkB
+Wjy/6Of3Jz3c91Q0mwsASYRhSP3TRw7Hv9x+/X9mxhg6nQ79fp9WqwXw6yL9rNfrBEHAzZcrZrPZ
+SeN8PqdcLlOpVKhWqySJOeHIWqsoik5wLpswDLXZbLLALwF832e/35OO8281Gg0Wzy8MH6c83Pdo
+NpskSUKpVMo4d+fWZa1VGIYC9ONbL3MQx7E8z0t55y/UWqskSRQEgQD5vi9jjIwx2Tov37vz4/FI
+rVYjiiIAnHMno+YK5GWzXq8Bfuf13+WccorPr/xQdNqP4qaNAAAAAElFTkSuQmCC
+__icons/crystal/image/revisions_current.png__
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
+WXMAAAsLAAALCwFtBIS3AAAAB3RJTUUH0wkJFDsBePw92AAAAshJREFUeNqNk09oVGcUxX/f996b
+zEzmZcwkzkyipmIGoxXRjAREq9BmIajdFApFpQU1alyI0E0XXRREdy4UceGz6UpQcCOxCxVBRCHG
+PzG4SIoNmpjaMZNxJm8mj3kz74+L4CtRkR44m49zz3fvPVzBJ5DtHw2D14PvZcAX4E2obvnhsNFr
+fagVHxTGQPyKoh2Roab4iuY6Uc3hr5kwnl2aE651RXWLJx8YO6Y+Msj2j6YR8k4q2dL10zdxvlqr
+0BRVALDrPk/+thi4XeH5y5nZiJv7/v6FnXcCg2z/0xhCPsp+2d51fHcYPaIGXV0fesvuzQkA6q7H
+7zeK3Bh+U4jZY+vvDuz9VwFo6zl8KpVKfntsZxiBxLI9LNtjWWuIDasauXp3loSuYdd89vW2cOHP
+XNSRjfqurHJTZo88CiO1gzu6Q1SqLnmzFlCPKuhRhR++bmVozCRv1gB4fL4bT4nveeWsa5dATygc
+izdHXPIlZxFvPS4BkNA1vtvWwsQ/1WA02bAkZiqdW1Qgk4hJ8qZDRFsUCua8w5qOCCuWNpBuDrFt
+Y/I/Ay2MkGpGBUTNVZgqKJw5lOJzWN+hLMpf4EsJ3sSc5TNeaGV00uf/wnVshGdNq6pbfujYpTkp
+0vFfLnuBoOooOC6c/RG6Vy68/XzJ5fTehS68anE+4Y6PyGGj1xKuNSDtHB1NZsDViSIXD9SD4tPX
+ylRMM/hAc/KDSXXytQRQ3eKJmZncRMgzSevVgF3LNAD+uFXALFdI6wspbDo6QsoZOgcUgrVv7Rvs
+rGltNzdm4qvWdMQQQrC8dcFgeraO7/uMT1V4+rw4na7fO5wWY/cMwzAX5bZ9/6U2S/vit2i0cc/K
+VCi2RG8AoFS2eZmrzdtWcTDlDJ1LKS+eGYZhfnSNAH19faFXzrp2U+ncIqSaEfhSeNZ0wh0fSaqT
+r4GCYRi19/p3jm0nvVxkvYYAAAAASUVORK5CYII=
+__icons/crystal/image/revisions_next.png__
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
+WXMAAAsMAAALDAE/QCLIAAAAB3RJTUUH0woKFg87U0sWzQAAAuxJREFUeNp9k81PHHUYxz+/38zs
+zuKw291SupQKpEVXa7CWptHQJpqejHKy7Rk9EFsTEw+Gk4de/AeM8bKxxkRJjUYPtocaTQjx0hYW
+m6ZChVVYNiyUrrs7sOO8j4eR9SXqN3kOz8vnOTzfPIJ/0eilOzqEp4jCYYgEhGU12Ll9nKtWsVj8
+26z4B2iAeAdFuygT6cyjWY8uzef+A53QabZEYH2mBo13n+aLyt4i8Rc4j5AzB3v3FybOZjjzpEK6
+SwHA8SJKKxZXvttlefXBw1SweeFY9NVMsViMF4xe+sFAyLnRY4cKb43rdKdUAG4u+wA8+1ice0HI
+hzca3Li1VTecxZGCMlOLO0SXD/b2FF59QcNxwXFj8MLpRwCYnm3zRF88+cpYmrXtcP9PZesyIW8q
+oxfndJTk9LkzGT3dBZYTdCJrqHQlFUYGE3xzx0EKD8sOyaR85stRIXB3P1GBUwndyGRTASsbEa3f
+/rzrfNnk3Ok0hX6NibPdfHC9ybW7KUwni0xGhukeHVOB4Zwh2TZ9xp87QKFf47/0xsv7WHwIC6sg
+NR0h1WEJCDdQqNSV/4U7bg2BELF9gkiqEJZbVsRSvYe3Pw0ZGRAdd8MQnhmCE4MxvLAGH82CKsH2
+HRKhVVXVYOe27zRbUuQz96oR96oRALavMHIYXns+hu+uR0xNh6Q0kIBpN9q5YGlBHueqJQLrinQ2
+GUibnXg81+C9iRhernm8f63JkX0mQxkT6Wyi+dtf96prG0qpVGLgxPlbu3Z4frBHyR1IRxhJHyPp
+cySfpNUO+Pjbeqfm2hb3f9mq9nmzU4ZsrigAL51M2Y2w/3rlV2Xc0GX2cE+SVEKyWLFZrNjomiCp
+wmqtzfxSvdrnff96Xi7PAZYCUCqVePGk0Wh53Z+vN9Tunzfdgu24CdsLae66rNZ2uPljq71R2/oy
+781O/QGbnV/Y0+TkJEBi3X/qkKkcHRNSHRZEUoRWNRcsLfSqaxtAHXD3vvF3yIVKVgFSQOEAAAAA
+SUVORK5CYII=
+__icons/crystal/image/revisions_previous.png__
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
+WXMAAAsNAAALDQHtB8AsAAAAB3RJTUUH0wkJExQNZhlfGwAAAutJREFUeNqFk01oXGUYhZ/vu3dm
+7ox3ZjqTNjMJpAnNYGKltZ0SobVkYRdC1JV14Q9UhNBmobh04UIQC9135cWA0pYK4qYubFWsEqFN
+2iRFaUfSkJ+mdjLN9GbuJJf5Zu6Pi9CBtAVfeDcv55zFOe8RPGOKY7cMCIYIgwKEAoJ53a9PTVrH
+3Cex4gmiCeIztMgpGU2lezItEhGPfyoGgVqvCd/9TvftL69bry0/JVAcu5VHyKu5zo6BE6+mOfqC
+RiqhAaBaIdN3XcZ/3WBusbIW98tv//nVyNW2QHFs1kTIG8W93QOfvGGQjOsATJY2AHh50ASg5Qd8
+fdnm8uRq1VR39v0x/t4DDaBr6OTpXK7zzY9HDAQSVwX8vehyfLiDvb0Jfr5ZIxaRqGbIYE+Mu6ta
+olwj+XpRu6IVT90w0GIX3jqaNlIJcJXP6qMWx4c7AHhUb7FWb+Eqf2sbAem4x835cMBvbpzTgaGo
+YaYzcZ+H6wFGRLbJZbvJL9O1tsnOpsePt7M4KoOMhabT7D+iA4WsKXnoePTuirXJAPlMlPeP7doW
+2+H98NE3ICMGQuoFCYimr7Fc1UglDf5vDvaBEFvuC0KpQzBfc0NK1Z2UfoJcNuSl3q10ZxZhZmm7
+wOwS6BIaniIauCu67tenPLVekyKfRsCnFwPOvCPZv1twsA/Gf39MCtG1ACnA0MFp2JtZvzSj3Z/+
+ttV96IPOZFwc7skGpGOKqbkGz3fr7ExpjByA67dtOhINMoZih6GoOzaqdu+HPXLiewmg+/YXlUp5
+Pho45JMN8skGF35bY6GsWCir9i2fbBANHCqrD1Zy3rWzQLX9yq+MXupvRrquHCik9wzuNhFiW00I
+w5DS8gazc/ZKvjVxMi/uTFiW5WxDDX94vsuN9H6eSDz3bl8uau5IxgBYrysWy81N5dqXct61szlt
+4S/Lspyn2ggwOjoavee92O1o/UeE1AuCUIrAXcn6pZlOfelfoGpZVvMx/j+xKTTcs1D65wAAAABJ
+RU5ErkJggg==
+__icons/crystal/image/user_preferences.png__
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAK5SURBVHjaYli5cifDokXrGdau3d304MGL
+b8+fv/1w+PDZo7a2zm4MRACAAGLo6JjNwM3NwyAvr6SycOGai79///0PAtevP/imo2PoQ0g/QACB
+DPBmZGRmBLGlpBRkli7dcuc/FJSVNR4GCgvi0w8QQExGRnrrIiIS+5iZWRmiozMsNDSURf7+/cfw
+/z8Dg6KiggJQjSo+AwACiIWfn/tvQ0NtgbS0ioqfn4ejmpo896dPXxlYWdkYnj598Quo5g8+AwAC
+iFld3dTVwsJQwdhYV01YmJ/t+/efDL9+/WZ4/fo9w5MXn/5yfLnyQojt6+cn7/68xGYAQAAx37t3
+/7GgoEyQtLQkG9DbDL9//2P49u07w5v3PxhUxH5zheuddfWzZws6fPb7pRcfft9FNwAggJjfv395
+/+jRw2du3Xosc+PGXdY9ew69Y2Th5VQW+8XCe7+eQfT9OQYRfkYea0tJ76Pnvl189QnVEIAAYkRi
+8wOxOhD/9bIyiJqUxVskxXSFgZOBmeH/XwaG/0JcDOcfcr2La3kUde3Zt50wTQABxIxkwE8gfgrE
+zzn+vX1qr8EYqqzJzc3Ay8bAyMXOwMgEjGbJ/5xGSgJehy9+v/j2C8QlAAHEjC1gXn3+9/rolZ8X
+1cUFvJW1OTgZhDgZGJiBSn/8ZpAV+8epIcbvdfjK91Mfvv15ABBAzLii5+3X33ePXf5+UYmby0tN
+n5OTERi1DPffAiU+MygrsnA+f8uhdPTm5/UAAcSML47ffwMacuXHRVkGVi9N4Z+cjOzAIPv2m4GB
+6R/D2XusDHuvft4NEEDMhJL6xx+/7x6//vOiOBu3p47UPy5GNgaG2w/ZGTq2fjv65P2PTQABxMhA
+JJDg53Tw1eWrFedlVNh5/fv10w8+zgMK7wAIIKINQEQ1ozIwUj9DY+wbQIABAEeBDQ9tBp7jAAAA
+AElFTkSuQmCC
+__icons/crystal/image/weather.png__
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
+WXMAAAsSAAALEgHS3X78AAAAB3RJTUUH0woODhw62PQCVgAAAD50RVh0Q29tbWVudABDcmVhdGVk
+IHdpdGggVGhlIEdJTVAKCihjKSAyMDAzIEpha3ViICdqaW1tYWMnIFN0ZWluZXInM+9YAAAB60lE
+QVR42tWRPUhbYRSGn1vj/fK3BAwuWTqYoUuhQ+hShMbQKUs7iBTJLLRdCv1ZrLh0CYS2LnUzHaq4
+FKcGcSoWERTUVmld7ObVJPZLvbfJ/XJzusTQRR069YXDOZzDeXgPB/5R1lmxNRO/AUwCuW5rGZi+
+/uB081JAd/nTYKYQ7Y8NAGDcKs76nAfcughypZsnBzOFqB1PYlkWlmVhx5MMZgrRrquLtTUTd2tf
+X0h9d0rqu1Ny725egF7k8/nmwsLC2kUOenr7bo1c7g6e5+H7Pq1Wi6H0kCqXy9eAq+cBlo1bBeD5
+y48MD9+mVqvx8+SExq8Gz548JZVKRYH75wGmnfU5zz89JpFIkEwmsZVChcPEIlHCkQjpdNoaGRl5
+fHbW+Pi426OUSqU3Z4PFxUXRWkv1uCqe54qIiOt6UqvVRWstWms5dA6lUCj4o6OjTSqVSl82mzVL
+S0tijBFjjGitxXEc0VqL63midUOcoyM5+HEge3t7srGxKbOzswJICIitrKyE5t/P831/H2XbACil
+AOjzfQLpYHyftmkTBAFBJyAIghagQsAp8Hr18+qjSCSCUmGU6se2FaH+EBYWHekEbdM2xpig2Wz+
+3t7eYmfny8DY2NgHAIrF4kPg1d+/vywmJia+ATf5//UHqwn/DS58UF4AAAAASUVORK5CYII=

@@ -1,0 +1,5 @@
+---
+version: 0.10
+date:    Tue, 19 Oct 2004 14:33:51 -0500
+changes:
+- Initial release, forked from Kwiki::Icons::Gnome
