@@ -2,7 +2,7 @@ package Kwiki::Icons::Crystal;
 use strict;
 use warnings;
 use Kwiki::Icons '-Base';
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 const class_title => 'Crystal SVG-based Icons';
 const icons_path => 'icons/crystal/template';
@@ -88,51 +88,51 @@ See L<http://www.gnu.org/copyleft/gpl.html>
 
 __icons/crystal/template/recent_changes_button_icon.html__
 <!-- BEGIN recent_changes_button_icon.html -->
-<img src="icons/crystal/image/recent_changes.png" alt="Changes" />
+<img src="icons/gnome/image/recent_changes.png" alt="Changes" />
 <!-- END recent_changes_button_icon.html -->
 __icons/crystal/template/edit_button_icon.html__
 <!-- BEGIN edit_button_icon.html -->
-<img src="icons/crystal/image/edit.png" alt="Edit" />
+<img src="icons/gnome/image/edit.png" alt="Edit" />
 <!-- END edit_button_icon.html -->
 __icons/crystal/template/favorites_button_icon.html__
 <!-- BEGIN favorites_button_icon.html -->
-<img src="icons/crystal/image/favorites.png" alt="Favorites" />
+<img src="icons/gnome/image/favorites.png" alt="Favorites" />
 <!-- END favorites_button_icon.html -->
 __icons/crystal/template/guest_book_button_icon.html__
 <!-- BEGIN guest_book_button_icon.html -->
-<img src="icons/crystal/image/guest_book.png" alt="Guests" />
+<img src="icons/gnome/image/guest_book.png" alt="Guests" />
 <!-- END guest_book_button_icon.html -->
 __icons/crystal/template/home_button_icon.html__
 <!-- BEGIN home_button_icon.html -->
-<img src="icons/crystal/image/home.png" alt="Home" />
+<img src="icons/gnome/image/home.png" alt="Home" />
 <!-- END home_button_icon.html -->
 __icons/crystal/template/new_page_button_icon.html__
 <!-- BEGIN new_page_button_icon.html -->
-<img src="icons/crystal/image/new_page.png" alt="New" />
+<img src="icons/gnome/image/new_page.png" alt="New" />
 <!-- END new_page_button_icon.html -->
 __icons/crystal/template/revisions_button_icon.html__
 <!-- BEGIN revisions_button_icon.html -->
-<img src="icons/crystal/image/revisions_previous.png" alt="[% hub.pages.current.revision_number %]&nbsp;Revisions" />
+<img src="icons/gnome/image/revisions_previous.png" alt="[% hub.pages.current.revision_number %]&nbsp;Revisions" />
 <!-- END revisions_button_icon.html -->
 __icons/crystal/template/revisions_controls_current_icon.html__
 <!-- BEGIN revisions_controls_current_icon.html -->
-<img src="icons/crystal/image/revisions_current.png" alt="Current" />
+<img src="icons/gnome/image/revisions_current.png" alt="Current" />
 <!-- END revisions_controls_current_icon.html -->
 __icons/crystal/template/revisions_controls_next_icon.html__
 <!-- BEGIN revisions_controls_next_icon.html -->
-<img src="icons/crystal/image/revisions_next.png" alt="Next" />
+<img src="icons/gnome/image/revisions_next.png" alt="Next" />
 <!-- END revisions_controls_next_icon.html -->
 __icons/crystal/template/revisions_controls_previous_icon.html__
 <!-- BEGIN revisions_controls_previous_icon.html -->
-<img src="icons/crystal/image/revisions_previous.png" alt="Previous" />
+<img src="icons/gnome/image/revisions_previous.png" alt="Previous" />
 <!-- END revisions_controls_previous_icon.html -->
 __icons/crystal/template/user_preferences_button_icon.html__
 <!-- BEGIN user_preferences_button_icon.html -->
-<img src="icons/crystal/image/user_preferences.png" alt="Preferences" />
+<img src="icons/gnome/image/user_preferences.png" alt="Preferences" />
 <!-- END user_preferences_button_icon.html -->
 __icons/crystal/template/weather_button_icon.html__
 <!-- BEGIN weather_button_icon.html -->
-<img src="icons/crystal/image/weather.png" alt="Weather" />
+<img src="icons/gnome/image/weather.png" alt="Weather" />
 <!-- END weather_button_icon.html -->
 __icons/crystal/image/.htaccess__
 Allow from all
@@ -167,29 +167,38 @@ rY6GYeD0OQzmB32gCnv6cIxtVUmsqP4qY1+cxj01gWGY2LaN5+UoFPK4rks2m5Xt4sMxCnEQw6fH
 yd97iHA9tIJUKizLQimNUgohRO872NjcYmHhbddv1C1Z+mBBt/aNht9D8AdqVATttvEy+QAAAABJ
 RU5ErkJggg==
 __icons/crystal/image/favorites.png__
-iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAABzUlE
-QVR42q3Tz0sUYRzH8fc+O5ipm1GGWazFFqkHod3Q6McpgthDQthhzkF78NjN/gCDDlJ0C5Lo0KUf
-BBUK0dVAagfX3c0VnRaG3Vx2tsm0VsfZebrMSIslW/SBLw9fHl7P4Xm+D/zHRIEx4AEgvYp65fdT
-wF2g30eKt46qqjp253jbhAi1X5b2OtMvnhavfCglAQojQ0WlK3wo0NQcm3r86MuNbCVlbro3gVsB
-IKqqavLe6ci8u7bSC+AYOgCapjEwNLzVA0jHIf9x9vO4vtr1vFSNBYGHI8c6Fvo69pxxDB33m4VT
-KSFa2ggPnvOUpPZjlZplUls22BfpCfG1MveyXO1TgEtXz54qby5lEaG92PkcrmViWya0tOIYOq5l
-1l2WYywRUkQ30C+AJxmjcADYwn7s1Mw27MdFtgMTAni3mMut1zaqDT+X1XmE2ZWN74AugNfX32jN
-wV27G8LBcIT36Sy382utwDMBLACxw/cnUfZ37oiVoyeYTmVIzFUAYsC88PY0/5Cm3pPFP+F0Oo2q
-lX2sAQR+M43JQiKOvZjZhuMzy3V4p5GWhURcfrrQLY1rF+Xk4MFfR7vhfyHfDp+Xrwb+Htcd8q+4
-4fwEn5PGUNU7vtsAAAAASUVORK5CYII=
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJESURBVHjaYmDAAz5VMcx/X84wH58agABi
+xCXxoZJBgImf/f7v3wwMv978VJScyPABmzqAAGLCZcD//wwFrLryAmx6WgJ//zAU4FIHEEA4DWBg
+Y4pnc9Bj4HJSZvjHyhSPSxlAAGE14G0ZQwKzqrQCI+djBkbuxwwc6goKT5pEG/792y2ArhYggBj/
+dTHM//uPQeEv0K9/Odkc/nHzM4DY3BGWDMwiL8GK/ryUY3g+4wDD378MDN9ffGRgYOf48PH+pwtA
+rz0ACCDGv50M8/+pqicwO1kAJd5BzX2Kw8EiQMzO8PfpH4Z7s04yvDz3bgFAAIFj4XsDQ8E/PuZ+
+jhB9Bkbmb7jj7A8jUDMDw5Vptxg+v/xbaLebYQJAAMGj8X0FQwKDAMd8bis+BhYRDkzNP5kYvt4C
+2rz5GcOn1/8SbXcyLAAJAwQQSjp4P1my4Pebl/0i7sJYDbi+6A3Dh+d/A613MGyACQMEEAtKiEqr
+CrB+fcXA8PEnROAfUjwBA5Cdk5Hh3z/UBAUQQCgG/Hr6yJ6TFZQMfwExI8Ovj/+B0fGfgU0Y6FAg
+4mYHBsMfBgegigMwPQABhGLA309fHdg5/zP8vf2b4fmTfwxv3/6/8AcYpQJCjAYKOkwMArxANX8Y
+7JH1AAQQPCGBEsmvp28ZPtz+x3D7xt8PH97/TzRcy2BouonB8NWL/4mndv398PT2X5CPDJANAAgg
+eCDeTmRQAPrvPjARNQLpCTorUP26z4EBnCeAXqgHJjxFn1MMD0DiAAEGAJvRzXSMmAfXAAAAAElF
+TkSuQmCC
 __icons/crystal/image/guest_book.png__
-iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAACOklE
-QVR42rWTTUhUYRSGn3vveGeytNRMjShEECEjwRaCFAQtpAKFECNc1aIEE1oFBRG1ydqG/eHChSjY
-H7mprBYJIkKYUWJUzETlaOP4M87cO3fufN/X4jqjSFCLOnB273nO956PF/5x+ffXFtwB1J+6cIvZ
-DujaOsDx0iKj793QGWY+P2EhJpiNChaXJQA+A3J8GoahceLCLIDhWwfomxy+Qix4l8iCILooCM8J
-ko7MCnZtz+FjMKWAekDqa4aPHdwXQDizLMQEtqOwHYWbVllBjk9DSng/fwhgBCADMID7A91nSUwP
-Ercklu21EB5A0zV2lvn49DUlLctSj2/WDKwFnGprzidtfye66Ga3O+7qdl2DgF9n8E0FR/eO0dT+
-thkwM0dU81OdLId6+Da9RHTJ8x5LSJT0IFXlJk9HLLTiVrq6ugAOAMM60NTZUUgy8pqkHcdxFU7K
-854ZBkjYiokf1WxO9mUuOgygAWpm7KRylyc1JRyUtJFpi/CcQK5IHVcxPuUw/rOB3t5eAn79UtKR
-V7OA/mslPHgRF7srTGOD33OVSCrSwvPuNzWmVQsNlY9oPDfzAajOvMwHUJiv03okz1Dlt6mrq0Mp
-RSAQAEAIQSgUYnR0lMb2W2gal9WqM4yaqvzcGz3RvP5n8ZId5vNEcarbLN4UIa7XZkHBYBDxpYOH
-rxIALb/LQBHQBtwDXgJhQB2uz00NXC9JRybOu4DaWmBe/JtAla580emybf7uTHj2VG4c4n/UL1lI
-FHEcBEIXAAAAAElFTkSuQmCC
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAANiSURBVHjaYvj//z8DSfiDisfxhQHLZcX4
+ZEF8gACCS7AarGRm0F7OAWIzG2yyY5DOScHQ/E7G/v9H6ddP9pn87y/3OCcvyScLEEAsDFAgxMeZ
+oK8uEsysu2pJcoThJGEhM2Em8Vi5fy8X14EV/FWwZ2BkXMPw+J2I9Pc3DHnm9oYHjwoFAwQQ2GQG
+jWUC6Y2XTj579ed/WuPV/xdvf/kPAuVT3/xn4E+omjdZwOH/b9nX/69w//+/lf3//1kq/xvdhbaw
+MjPIAgQQ2ABxu815m/e/+37z/o//l29/+z9h0b3/529//v/xz///s9du+f/spuyP/9c5oZpV/zd4
+iG0BukkMpBcggJiYdFdK25vKZ3BwsHK8fv+H4edPoIOUhBk27HnDcOfOG4YUt0kMkn+fsjPc/cfA
+8Fjif+O6D5sbdrxKAmp+BfIZQACx8POJlprqCGh++vKX4fOX/wz/GBgZ2FkZGVRkhRhWbbrHIGgs
+z6DIxM/w9wE3Q902/rttOx4mAzW/hoUdQACxWMhtZfn+WZth5WZlBhlZbQZe7r8MPFxMDPy8rAw8
+nMwMU/d7MYQoszD8ZudkeGQYLct4bmImUF8TzACAAABBAL7/BB8BmcTW0FpMCxYSHwgD1wDk6R8A
+CwkEAOnt/AD49PwA+wIiAJDWZABLTyUAc08NBxERjIEHG10E+uamgf///f0CAEEAvv8D1Nn72gj8
+0749NwJGu8wWERkVDAAICQ0A+fr+AP4DDQAICg0AAAMMANbY7gAOEwgARj8QAO76PT/Vz8XngHpi
+zAKI5cev/7+ALjkf7CHQqKbEmiLO/8Pm4m1lBikZLQYmxt8MX7//AYYKE8PXr8wMVy69ZeBk5Ga4
+dO7EZ4ZfD9+AvAAQQPCEtHbHh4WJoXzfbv1kkRUAekeQ8ybDs/fyDKxsLAx/gRHAzvaPgY2Rj6Gu
+adOnG7szs/7/eboGpA8ggBjBCQkKONgY2Qy0WLWDosPXbjzrqaippsXAxiXB8P3HH4Znb34z3Lt1
+8dOdfdkgzUthegACCO4CEED2jjrQO1ICP2yuPVRi+P5PgeHs6WOf3l6oQNEMAgABhDPXJYTwhsak
+pjw0CDn9X8xyyWcGdulobOoAAginARysDGySYswqbBJ+FQwc8uG41AEEGACBPM7CWq3WvAAAAABJ
+RU5ErkJggg==
 __icons/crystal/image/home.png__
 iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAAoBJREFU
 eJyVkk9IVFEUxn/3OW/KZnR4qONoY1rmH8zCtE1h0sbaSWAu2hVRGEa4KCpqEUSrXEQ1CEGgi6JF
@@ -219,25 +228,43 @@ ESgtoyYzUGJiBHuDEWo7wgUAAYQzHRALAAKICWbC/3+QTARyHZhCSq7/YWn3PySKkb0AEEAsMDke
 blZEbgRicJj9B4UNME0AFf35+5fhHzCgWYAJCTkQAQKI5eOnT1/bOif/YWJigVryD+zf/0An/Qe7
 BpIzwDYDMSMwWr58+vwTZgBAgAEASRjbgDafxqkAAAAASUVORK5CYII=
 __icons/crystal/image/plugin_index.png__
-iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
-WXMAAAsSAAALEgHS3X78AAAAB3RJTUUH0wkJDi4DsPacRgAAAB10RVh0Q29tbWVudABDcmVhdGVk
-IHdpdGggVGhlIEdJTVDvZCVuAAABeUlEQVR42rWSOy8EURTHf3d2d+4gmyBIEA2VaLxDKZqtFCQU
-So1WfAHtFiofQKWU+BJCgoYVMcQmiCz7sF6zZszdq7CzhPVIcJKbe+4/93/O/zzgH2wI0KX7K+xT
-05e5K10ilLH83c17DACjUoTj85MP2H7yoGI2488Kb7Bke0nit6dRmr0BT7yt00vsvb5ME5VO49s2
-AO72Fhurq9wWi8xnr0kpJQDCb1W4ts3j4SGX8XgZ89EoYRAyDOqLRdrMSOUeNEpzLDo+gdXRQe30
-NDWdnRiWJCwlN5YkZ0awR0ximRwqHOoPeGUFWoh1AJU8gcFBzo6OiAwPI1IpqgoFTnscolE3+JsK
-eKHAcXxVAHab7u+nBmIx/Pw1nuPgtLhk6i7IdnksL2ZJPD1NOr7arNREGixZJbSeSbveUnJ0hIfu
-brYeVsi3QnwhiwqHZrQQa5lHN/fdSOsBnZif08uzTVq8jK7vx4sUZKhubkYi0EDa9Xb+ZRN/HeAZ
-ELmcUtQv1QoAAAAASUVORK5CYII=
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAOdSURBVHjaAEEAvv8Brq7RAAwLBAAEAwEA
+BQYDAObk7wAJCQgA/P7+AOXk6wTu7vBfCwwIJjUl3DH+894tysfpo9DR0pj9Ex/evMTNAAKIhQEN
+MDIyMjAxMTJ8fPfZ8f79pzXv3n12+vXzN8Od2xwM1tZ6DE4h70p1NLmiTt/83bvt99+JAAHEgtDI
+ANb4798/rYcPXpS9ffspRkxUkFlaWozhz6+/DN9//GY4d+73/9t3uBlYmJilLz0+7/Tzx5fpAAHE
+ArP1959/4h8/fcr+9u1nhpAwj6i0jDDDnz9/GX79+gOk/zH8+Qukf/9l/PnjP8Pb9zwMKmpCKqq3
+7lgABBALExMb469fvxP//PpVys7GoqGiIsbw/z8DWPPfv/8Y/v77z/AfiEHsf3+BbKCklDQ/w6NH
+PBp/fnPHAgQQy6tXN3hVlVWnKGnJcn798hPoEqhGoOK/cI3/wN78DfTK588/GB49fMnw+PF7hp8/
+f3ABBBCLBN+5Kb///uRkYPBkEBbhBAp+BzoXqAnsbCANdA0weBhevPzI8P7DVwZODjYGZhYWho+f
+P3xjYPz9ACAAAEEAvv8ECe7pQx4c7wDj5OcABgU7ABAQGQAEBAQADAwHAAECAgD39/oA7Oz0ANjW
+5gDy8/cAHx8VACQkGgDd3tna7/DgpwKI+fpjpkM/n/2WUBB4q/7o5UWGNx9kGZiZeYC2fQEH3vsP
+Pxi+fv7N8Pjpe2BUPgF7SUJCgIGPT0T07v075wACAEEAvv8D5unm5snY5a/x7P/d4+P9AM/Z7MwM
+ChUY8fH7C+rq8gAPDg0A4eLl8Lq7qKLX2MywDg0cLB0dFgsLCwwCyMfF7wIIHI0/fn77ufrg+QVs
+7Byrfv3cyXDx4iEtPR3XfC1Nw4Cr148dX71m3px7967vFRAQeevmGmb3799/V2B0M3z5+pUJIIAY
+GXAAZmZWVikpJfOnT2+/Aiauu/HxuQzBgUm9P3/8zP716y/Lw4fvGVavnboEIIBYcBnw9+/v348f
+3zwCYgcHpTD4eCbmMTMy5oMS1qPHbxkePnz69/v316cAAoiJgQBgZmYDJh4FhstX7/qxszMzfAGm
+lXt3H747fHRF5+075zYABBALPs2cnHwM5mZRwPzBzvDk8RvWb9//MygqyjAAkwbfy7cHL1+7/u8x
+QADhNYCfX5Th9+93DM+eP2O4e/fHlOs3dtxRkJdg/frtF9Pnz9+FgZmPFSDAAO9BvzIiPGkFAAAA
+AElFTkSuQmCC
 __icons/crystal/image/revisions.png__
-iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAABdElE
-QVR42o2SMYsaURSFvyxrLWKRXoT8BC39AdttZR/YhYWk9HdsirBpUttHm11BZZhhrKwirAgRRJh9
-MwhiFfW9s83OECHOzoXTvHfu4dxzL8A1oDO4okDJOZfBWqvlcqnxeJyKXBcS2G63GTzP0+FwULfb
-fdfJhzcBdrtd9jgYDPB9nziOWa1WjEajlJvvYDgcCtB0OlW73VbRbOSc02QyEaA/iyQjFs1GzjkB
-Wjy/6Of3Jz3c91Q0mwsASYRhSP3TRw7Hv9x+/X9mxhg6nQ79fp9WqwXw6yL9rNfrBEHAzZcrZrPZ
-SeN8PqdcLlOpVKhWqySJOeHIWqsoik5wLpswDLXZbLLALwF832e/35OO8281Gg0Wzy8MH6c83Pdo
-NpskSUKpVMo4d+fWZa1VGIYC9ONbL3MQx7E8z0t55y/UWqskSRQEgQD5vi9jjIwx2Tov37vz4/FI
-rVYjiiIAnHMno+YK5GWzXq8Bfuf13+WccorPr/xQdNqP4qaNAAAAAElFTkSuQmCC
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA
+BGdBTUEAANjr9RwUqgAAACBjSFJNAABtmAAAc44AAOpIAACF/wAAd+8AANDwAAAyvwAAIBuCk5GZ
+AAADC0lEQVR42lTQy29UdQDF8e/v3ju305mhCH3RUloBa1pKqqUzEYptaOKiYgILXIDGhSsjWxPj
+SnHTDSYmPlCSBl8bE0WjGElNKgvCABWSKvSV0NJOp9Ox7bxf9/1zpfGeP+CTc4648M0tHGliu/by
+SF/H3oXk9l9LRefrO4+zH789eoBkpkRJCWG50LvDY/7REuPnX+HfaJPucc5F7mC6Vf1k7JB+Mka0
+5sjog5WNjxZXU67jyWkHecGV/OYBEn80PFAJoBKQE59PkC9WiB0/xuFno3S2tqiGbR8rVmuTa+kt
+tjL5mhDiNeDqf4DpQKw3y40FR3a+DmP2We5OPmD83fcxbYO+I4McGRqhfU87kSea6+/Gb77nA758
+KS4LmWxlZ2g1sJEuEK9/E/uExcGR5+jnNMs3qkxc/IC5xVnOnH8Lz/PKvgn5lTItu/eH3xh7kYqX
+Y351iFQmSUHb5vruyxgn1glGGzltjdKUa2PhT0wfYCn9pLOLTF2+SLli0PV0F7HhKKIO0j9t03L0
+edbMFLfcH+hvSuPZTYYPKFuOvHl7QBRKAxzsMXHVaa5c+ozNQoauw53M2tMUwvdpr+2jqTJEwp2t
++YDcloqV12jfU0NxHOIPnyE+M8CB3gKttU/JfTVId885tEMJ0CTSsfwNnuy5zb5OiaJ1MDPXyqP5
+AG27KuwQBuiCfEs31+7NYfySYHB4FOlZ/g9M1RYyIsiU/iDLQ46OSkLhbv7eiOF6gs2VRaqWidm8
+n/sZiz7h+QF0BReH5HoSu8GhRJmV2nWq+nc05LpRGzvQHIvidgbVqKFI1/+Bq1ikiilExEOrE0jX
+w6xZlIJFxKZB1YFiqUTVctGFCp4fUH6d/JGt4ho0OLhhi4pXxgoaOBEDRYJUg1SVMOVABFMqKNKx
+fIAe1MWHZ7/om74yM7UxlaE+V0/dTpVqqIRprj/uTExdG9bXGOvQeKqtERVp+wBVVdF0dU6r017Q
+gqr45OWrwvu2ebzrXiwVkrsSUlFOeaouvn/nVXXvws+XlpeXfv8/8M8AuvR6iCmvHaEAAAAASUVO
+RK5CYII=
 __icons/crystal/image/revisions_current.png__
 iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
 WXMAAAsLAAALCwFtBIS3AAAAB3RJTUUH0wkJFDsBePw92AAAAshJREFUeNqNk09oVGcUxX/f996b
@@ -306,14 +333,19 @@ JJDg53Tw1eWrFedlVNh5/fv10w8+zgMK7wAIIKINQEQ1ozIwUj9DY+wbQIABAEeBDQ9tBp7jAAAA
 AElFTkSuQmCC
 __icons/crystal/image/weather.png__
 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
-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
+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
